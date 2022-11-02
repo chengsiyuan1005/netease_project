@@ -1,0 +1,80 @@
+.Rank {
+    width: 22.5rem;
+}
+
+.Rank>h1 {
+    margin-left: .3125rem;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(46, 48, 48);
+}
+
+.official-rank {
+    margin: .3125rem;
+}
+
+.official-rank-box {
+    width: 21.875rem;
+    height: 6.575rem;
+    border-bottom: .0625rem #ccc solid;
+    margin-bottom: .3125rem;
+    position: relative;
+}
+
+.official-rank-box>span {
+    position: absolute;
+    left: .4375rem;
+    bottom: .4375rem;
+    font-size: .625rem;
+    color: rgb(241, 241, 241);
+}
+
+.official-rank-box-left {
+    margin-bottom: .3125rem;
+    float: left;
+}
+
+.official-rank-box-left>img {
+    height: 6.075rem;
+    width: 6.075rem;
+    /* margin-bottom: .3125rem; */
+}
+
+.official-rank-box-right {
+    float: left;
+    padding-left: 1.25rem;
+    width: 15rem;
+}
+
+.official-rank-box-right>p {
+    padding-top: 5px;
+    font-size: .75rem;
+    color: grey;
+    /*文本溢出时处理方式ellipsis--省略号*/
+    text-overflow: ellipsis;
+    /*设置文本不换行*/
+    white-space: nowrap;
+    /*超出标签的部分隐藏*/
+    overflow: hidden;
+}
+
+/* global-rank--- */
+.global-rank {
+    width: 21.875rem;
+    margin: .3125rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.global-rank-box {
+    height: 7.2rem;
+    margin-bottom: .3125rem;
+    width: 7.2rem;
+}
+
+.global-rank-box>img {
+    height: 7.2rem;
+    width: 7.2rem;
+}

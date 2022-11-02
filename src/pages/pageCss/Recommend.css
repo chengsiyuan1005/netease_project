@@ -1,0 +1,64 @@
+.Recommend {
+    width: 22.5rem;
+}
+
+.banner-base {
+    height: 7rem;
+    width: 22.5rem;
+    background-color: #D44439;
+    margin-bottom: 4rem;
+}
+
+.contentStyle {
+    width: 22rem;
+    height: 10rem;
+    color: #fff;
+    lineHeight: 10rem;
+    textAlign: center;
+    background: #364d79;
+    border-radius: .625rem;
+    margin: 0 auto;
+}
+
+.rec-menu {
+    font-size: .875rem;
+    font-weight: 700;
+    padding-left: .3125rem;
+}
+
+.songs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.songs>li {
+    width: 7.1875rem;
+    height: 10.4375rem;
+    border-radius: .3125rem;
+}
+
+.songs>li>img {
+    height: 7.1875rem;
+    width: 7.1875rem;
+    border-radius: .3125rem;
+}
+
+.songs>li>p {
+    font-size: .75rem;
+    width: 7.1875rem;
+    padding: .125rem .2125rem;
+    width: 6.5625rem;
+    height: 2.575rem;
+    overflow: hidden;
+    /*超出两行省略*/
+    word-break: break-all;
+
+    text-overflow: ellipsis;
+
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 2;
+    /* 这里是超出几行省略 */
+}

@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.css';
+
+
+.App {
+  width: 100%;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body{
+  background-color: #F2F3F4;
+}
+
+

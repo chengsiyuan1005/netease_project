@@ -1,0 +1,173 @@
+.SingerDetails {
+    width: 22.5rem;
+    position: relative;
+    background-color: #F2F3F4;
+    position: relative;
+    top: -5.2rem;
+    z-index: 18;
+}
+
+.back-img {
+    height: 22.5rem;
+    width: 22.5rem;
+    position: relative;
+}
+.back-img>img {
+    height: 22.5rem;
+    width: 22.5rem;
+}
+.back-then {
+    height: 2.5rem;
+    font-size: 1.25rem;
+    color: #fff;
+    position: absolute;
+    top: .25rem;
+    left: .3rem;
+}
+.back-then>a>span {
+    height: 2.5rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+
+/* 内容--- */
+.down {
+    width: 22.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem .5rem 0 0;
+    /* height: 50rem; */
+    position: relative;
+    top: -7rem;
+}
+
+.songs-content {
+    width: 22.5rem;
+}
+
+.first-li {
+    width: 21.875rem;
+    height: 2.9rem;
+    margin-left: .625rem;
+    border-bottom: .0625rem #ddd solid;
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.first-li-left {
+    width: 14.875rem;
+    height: 2.4rem;
+    float: left;
+}
+
+.first-li-right {
+    width: 7rem;
+    background-color: #D4473C;
+    height: 2.4rem;
+    float: left;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -2.88rem;
+    left: 7.8rem;
+}
+.first-li-right>span {
+    padding: 0 .625rem;
+}
+.first-li-right>span:last-child {
+    height: 2.4rem;
+}
+
+.play-all {
+    font-size: 1.3rem;
+    position: relative;
+    top: 0.75rem;
+}
+
+.first-li-left>mark {
+    position: relative;
+    top: 0.6rem;
+    left: 0.5rem;
+    background-color: #fff;
+}
+
+.big-mark-one {
+    font-size: 1.1rem;
+}
+
+.small-mark-one {
+    color: rgb(187, 168, 168);
+}
+
+.first-li-right>span:first-child {
+    color: #fff;
+    font-size: 1.1rem;
+    position: relative;
+    top: .7rem;
+    padding: 0 .2rem;
+}
+
+.first-li-right>span:last-child {
+    color: #fff;
+    font-size: .9rem;
+    position: relative;
+    top: .65rem;
+}
+
+.first-li-right>span:last-child>mark {
+    background-color: #D4473C;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.all-li {
+    /* height: 3.75rem; */
+    width: 22.5rem;
+    position: relative;
+}
+.all-li-box {
+    height: 3.75rem;
+    width: 22.5rem;
+    position: relative;
+}
+.all-li-box-left {
+    height: 3.75rem;
+    width: 3.75rem;
+    float: left;
+    text-align: center;
+    line-height: 3.75rem;
+    font-size: 1.2rem;
+}
+.all-li-box-right {
+    height: 3.6875rem;
+    width: 18.5rem;
+    float: right;
+    border-bottom: 0.0625rem solid #ddd;
+    position: relative;
+}
+
+.all-li-box-right>p:first-child {
+    width: 18.75rem;
+    position: absolute;
+    top: .5rem;
+    /*文本溢出时处理方式ellipsis--省略号*/
+    text-overflow: ellipsis;
+    /*设置文本不换行*/
+    white-space: nowrap;
+    /*超出标签的部分隐藏*/
+    overflow: hidden;
+}
+
+.all-li-box-right>p:last-child {
+    width: 18.75rem;
+    font-size: 0.75rem;
+    color: #999;
+    position: absolute;
+    top: 2rem;
+    /*文本溢出时处理方式ellipsis--省略号*/
+    text-overflow: ellipsis;
+    /*设置文本不换行*/
+    white-space: nowrap;
+    /*超出标签的部分隐藏*/
+    overflow: hidden;
+}

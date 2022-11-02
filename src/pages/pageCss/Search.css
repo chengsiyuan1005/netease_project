@@ -1,0 +1,158 @@
+.Search {
+    width: 22.5rem;
+    height: 100%;
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+
+}
+
+
+.head-mat {
+    width: 22.5rem;
+    height: 18.75rem;
+    background-color: #F2F3F4;
+}
+
+.head {
+    background-color: #D44439;
+    width: 22.5rem;
+    height: 2.5rem;
+    position: absolute;
+}
+
+.arrow {
+    font-size: 24px;
+    color: rgb(241, 241, 241);
+    line-height: 2.5rem;
+    padding-left: .3125rem;
+}
+
+.search-input {
+    outline: none;
+    border: none;
+    border-bottom: rgb(241, 241, 241) .0625rem solid;
+    background-color: #D44439;
+    position: absolute;
+    top: .425rem;
+    left: 2.3125rem;
+    width: 18.8rem;
+    color: rgb(241, 241, 241);
+}
+
+.search-input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white;
+}
+
+.search-input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+
+.search-input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+}
+
+.search-input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: white;
+}
+
+.hot-search {
+    position: absolute;
+    width: 22.5rem;
+    top: 2.5rem;
+    background-color: #F2F3F4;
+}
+
+.hot-search>h1 {
+    padding-top: 1.8875rem;
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem;
+    font-size: .875rem;
+    color: rgb(187, 168, 168);
+}
+
+.hot-search-list {
+    margin: 0 1.2rem;
+}
+
+.hot-search-list>li {
+    display: inline-block;
+    padding: .2125rem .625rem;
+    margin: 0 1.25rem .625rem 0;
+    border-radius: .375rem;
+    background: rgb(255, 255, 255);
+    font-size: .875rem;
+    color: rgb(46, 48, 48);
+}
+
+.hot-search-list>li>span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+/* search-over-------------- */
+.over {
+    position: absolute;
+    width: 22.5rem;
+    background-color: #F2F3F4;
+    z-index: 30;
+    top: 2.5rem;
+}
+
+.over-singer {
+    width: 22.5rem;
+}
+
+.over-singer>h5 {
+    padding: .3125rem 0;
+    padding-left: .5125rem;
+}
+
+.over-singer>li {
+    margin: 0 .5rem;
+    width: 21.5rem;
+    padding-bottom: .5125rem;
+    border-bottom: .0125rem #ccc solid;
+    margin-bottom: .5125rem;
+    overflow: hidden;
+}
+
+.over-singer>li>img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: .3125rem;
+    margin: 0 1.25rem 0 .3125rem;
+}
+
+.over-singer>li>span {
+    display: inline-block;
+    width: 16rem;
+    vertical-align: middle;
+    /*文本溢出时处理方式ellipsis--省略号*/
+    text-overflow: ellipsis;
+    /*设置文本不换行*/
+    white-space: nowrap;
+    /*超出标签的部分隐藏*/
+    overflow: hidden;
+}
+
+.over-singer>li>h3 {
+    font-size: 1rem;
+    color: #000;
+    padding-left: .625rem;
+}
+
+.over-singer>li>mark {
+    background-color: transparent;
+    font-size: 0.85rem;
+    color: rgb(187, 168, 168);
+    padding-left: .625rem;
+    padding-right: .3125rem;
+}

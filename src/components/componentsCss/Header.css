@@ -1,0 +1,58 @@
+.Header {
+    height: 5.2rem;
+    width: 22.5rem;
+    background-color: #D44439;
+}
+.header-over {
+    height: 5.2rem;
+    width: 22.5rem;
+    position: fixed;
+    z-index: 18;
+    background-color: #D44439;
+}
+.search {
+    height: 2.5rem;
+    width: 22.5rem;
+    padding: .3125rem .625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-one {
+    height: 2.5rem;
+    color: rgb(241, 241, 241);;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+.search-two {
+    color: rgb(241, 241, 241);;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+}
+.search-three {
+    width: 2.5rem;
+    color: rgb(241, 241, 241);
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+.items {
+    height: 40px;
+    width: 22.5rem;
+    display: flex;
+}
+.items>li {
+    height: 2.5rem;
+    width: 7.5rem;
+    text-align: center;
+
+}
+.items>li>a {
+    font-size: .875rem;
+    color: rgb(228, 228, 228);
+    line-height: 2.5rem;
+}
+.items>li>a:hover {
+    font-size: bold;
+    color: #fff;
+}
+

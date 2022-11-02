@@ -1,0 +1,68 @@
+.Singers {
+    width: 22.5rem;
+    background-color: #F2F3F4;
+}
+.singers-up {
+    height: 4.375rem;
+    width: 22.5rem; 
+}
+.singers-up-one {
+    overflow-x: scroll;
+    width: 22.5rem; 
+}
+.default-sort {
+    height: 1.875rem;
+    width: 62rem;
+}
+
+.default-sort>a {
+    margin: 0 .3125rem;
+}
+.default-sort>a:hover {
+    color: #D44439;
+    box-shadow: 0 0 .0625rem .0625rem #D44439;
+    border-radius: .1875rem;
+}
+
+.singers-up-two {
+    overflow-x: scroll;
+    width: 22.5rem; 
+}
+.initial {
+    height: 1.875rem;
+    width: 50rem;
+}
+.initial>a {
+    margin: 0 .625rem;
+}
+.initial>a:hover {
+    color: #D44439;
+    box-shadow: 0 0 .0625rem .0625rem #D44439;
+    border-radius: .1875rem;
+}
+/* 内容---- */
+.singers-content {
+    width: 21.875rem;
+    margin: .3125rem .3125rem;
+}
+.singer-content-box {
+    width: 21.875rem;
+    height: 3.875rem;
+    border-bottom: .0625rem #ddd solid;
+    /* background-color: #aaa; */
+    overflow: hidden;
+}
+.singer-content-box>img {
+    height: 3.125rem;
+    width: 3.125rem;
+    margin: .375rem 0;
+    border-radius: .1125rem;
+    margin-right: 1.25rem;
+}
+.singer-content-box>p {
+    font-size: .875rem;
+    color: rgb(46, 48, 48);
+    font-size: 500;
+    display: inline-block;
+}
+
